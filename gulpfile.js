@@ -1,7 +1,7 @@
 const gulp = require('gulp');
 const babel = require('gulp-babel');
 
-gulp.task('default', function() {
+gulp.task('default', function(done) {
     // Здесь будут задачи Gulp
 
     // Исходный код для Node
@@ -13,4 +13,6 @@ gulp.task('default', function() {
     gulp.src("public/es6/**/*.js")
         .pipe(babel())
         .pipe(gulp.dest("public/dist"))
+
+    done()
 })
