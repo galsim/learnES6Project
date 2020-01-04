@@ -1,4 +1,4 @@
-'use strick';
+'use strict';
 
 const sentences = [
     { subject: 'Javascript', verb: 'is', object: 'great'},

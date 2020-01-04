@@ -1,5 +1,4 @@
-"use strict";
-'use strick';
+'use strict';
 
 var sentences = [{
   subject: 'Javascript',
