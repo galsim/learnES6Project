@@ -18,7 +18,7 @@
   "homepage": "https://github.com/galsim/learnES6Project#readme",
   "dependencies": {
     "@babel/polyfill": "^7.7.0",
-    "underscore": "^1.9.1"
+    "underscore": "^1.12.1"
   },
   "devDependencies": {
     "@babel/core": "^7.7.7",
